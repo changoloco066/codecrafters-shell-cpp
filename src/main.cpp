@@ -6,11 +6,11 @@ int main() {
   using namespace std;
   std::cout << std::unitbuf;
   std::cerr << std::unitbuf;
-  std::string command;
-  std::getline(std::cin, command);
+  string input;
+  std::getline(std::cin, input);
 
   // TODO: Uncomment the code below to pass the first stage
-  std::cout << "$ ";
-  std::cin >> command;
-  std::cout << command << "command not found\n";
+  cout << "$ ";;
+  cin >> input;
+  cout << input << "command not found\n";
 }
