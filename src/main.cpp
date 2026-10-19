@@ -17,7 +17,7 @@ int main() {
         std::cout << input.substr(5) << std::endl;
 
       } else if(input.substr(0, 5) == "type "){
-        std::cout << input.substr(5) << std::endl;
+        std::cout << input.substr(5) << " is a shell builtin" << std::endl;
       }  
       else {
         std::cout << input << ": command not found" << std::endl;
